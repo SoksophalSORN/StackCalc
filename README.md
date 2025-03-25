@@ -64,7 +64,7 @@ Memory leaks: If dynamic memory is used, ensure all allocated memory is properly
 
 ## License
 
-This project is open-source and available for modification and distribution under the MIT License.
+This project is open-source and available for modification and distribution under the [License].
 
 Author: SoksophalSORN Date: 25th March, 2025
 
