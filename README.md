@@ -1,10 +1,10 @@
-## Postfix Calculator
+# Postfix Calculator
 
-# Description
+## Description
 
 This project is a command-line postfix (Reverse Polish Notation) calculator implemented in C++. The calculator evaluates mathematical expressions written in postfix notation, where operators follow their operands. It utilizes a stack data structure for efficient computation.
 
-# Features
+## Features
 
 Supports basic arithmetic operations: addition (+), subtraction (-), multiplication (*), and division (/).
 
@@ -14,7 +14,7 @@ Handles multiple calculations in a loop until the user decides to exit.
 
 Provides error handling for invalid expressions.
 
-# How It Works
+## How It Works
 
 1. The user is prompted to enter a postfix expression.
 
@@ -28,7 +28,7 @@ Provides error handling for invalid expressions.
 
 6. The final result is displayed after evaluating the entire expression.
 
-# Example Usage
+## Example Usage
 
 Input:
 
@@ -40,7 +40,7 @@ Result: 17
 
 Compilation & Execution
 
-# Compile:
+## Compile:
 
 g++ -o your_binary_file_name main.cpp
 
@@ -48,13 +48,13 @@ Run:
 
 ./postfix_calculator
 
-# Dependencies
+## Dependencies
 
 C++ Compiler (e.g., g++)
 
 Standard C++ Libraries
 
-# Possible Issues & Fixes
+## Possible Issues & Fixes
 
 Incorrect order of subtraction or division: Ensure operands are popped in the correct order before applying the operator.
 
@@ -62,7 +62,7 @@ Input handling issues: If user input causes unexpected behavior, use std::cin.ig
 
 Memory leaks: If dynamic memory is used, ensure all allocated memory is properly deleted.
 
-# License
+## License
 
 This project is open-source and available for modification and distribution under the MIT License.
 
