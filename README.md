@@ -38,13 +38,13 @@ Output:
 
 Result: 17
 
-Compilation & Execution
+## Compilation & Execution
 
-## Compile:
+# Compile:
 
 g++ -o your_binary_file_name main.cpp
 
-Run:
+# Run:
 
 ./postfix_calculator
 
