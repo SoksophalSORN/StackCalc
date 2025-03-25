@@ -94,9 +94,12 @@ double Calculator(std::string input){
         // stk.print();
         exit(EXIT_FAILURE);
       }
-
-      double a = stk.pop();
+      
+      // 2nd operand must be pop before the 1st operand
       double b = stk.pop();
+      double a = stk.pop();
+      // std::cout << a << std::endl;
+      // std::cout << b << std::endl;
       double result = 0;
 
       // Cannot use switch because token is not integer.
