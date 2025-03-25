@@ -46,7 +46,7 @@ g++ -o your_binary_file_name main.cpp
 
 ### Run:
 
-./postfix_calculator
+./your_binary_file_name
 
 ## Dependencies
 
